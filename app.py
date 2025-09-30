@@ -54,15 +54,8 @@ def main() -> None:
     st.info(
         """
         Upload a CSV file exported from Real Intent.  The app will convert your
-        file into a format suitable for Pipedrive's CSV import.  Pipedrive
-        requires a person name (either a single full name or separate first
-        name and last name) as well as other contact details like email and
-        phone【156037038803486†L193-L205】.  During the import, you can map
-        multiple phone numbers by dragging the Phone field multiple times and
-        assigning labels such as Work, Home or Mobile【181921423446661†L180-L199】.
+        file into a format suitable for Pipedrive's CSV import.  
         
-        Address information can be split across separate columns (Address,
-        City, State, Postal code) as provided here【181921423446661†L139-L170】.
         For fields not present in Pipedrive by default—such as household
         income—you should create a custom field in your Pipedrive account prior
         to importing.
